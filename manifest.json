@@ -1,0 +1,20 @@
+{
+  "manifest_version" : 2,
+
+  "name": "Web Filter Bypasser",
+  "description": "This extension HPEFULLY bypasses the Lightspeed Systems web filter",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"options_page": "options.html"
+  },
+  "permissions": [
+    "activeTab",
+	"background",
+	"<all_urls>",
+	"tabs"
+  ]
+}
+
